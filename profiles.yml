@@ -22,7 +22,7 @@ loa:
       location: us-east4
       method: service-account
       priority: interactive
-      project: cloud-run-dbt-test1
+      project: acquired-storm-360521
       threads: 3
       type: bigquery
   target: dev
