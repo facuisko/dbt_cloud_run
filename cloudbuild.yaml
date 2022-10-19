@@ -2,10 +2,10 @@ steps:
   # Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
-           'us-central1-docker.pkg.dev/${PROJECT_ID}/dbt-image/dbt-image', 
+           'us-east4-docker.pkg.dev/${PROJECT_ID}/poc-dbt/poc-dbt', 
            '.']
 
   # Docker Push
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 
-           'us-central1-docker.pkg.dev/${PROJECT_ID}/dbt-image/dbt-image']
+           'us-east4-docker.pkg.dev/${PROJECT_ID}/poc-dbt/poc-dbt']
