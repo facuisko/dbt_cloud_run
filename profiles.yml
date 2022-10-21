@@ -6,7 +6,7 @@ empleo_proj2:
       job_retries: 1
       keyfile: /secrets/dbt-service-account.json
       location: us-east4
-      method: service-account
+      method: oauth
       priority: interactive
       project: 	acquired-storm-360521
       threads: 3
