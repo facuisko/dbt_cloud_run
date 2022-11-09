@@ -22,7 +22,7 @@
     credit_mon_valor_cuota,
     sistema_origen,			
     credit_fec_actualizacion,
-    id_registro_stage,
+    --id_registro_stage,
     '{{ run_started_at}}' as MDM_fhNew,
     MDM_ProcessNew,
     periodo_dia
